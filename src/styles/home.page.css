@@ -1,0 +1,29 @@
+#home {
+  animation: show-content 500ms;
+  margin-top: 6.4rem;
+}
+
+#home img {
+  margin-bottom: 3.2rem;
+}
+
+#home h1 {
+  margin-bottom: 1.6rem;
+}
+
+#home p + p  {
+  margin: 3.2rem 0;
+}
+
+
+@keyframes show-content {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
